@@ -155,7 +155,7 @@ let HomePage = class HomePage {
     }
 };
 HomePage = __decorate([
-    __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-home',template:/*ion-inline-start:"/home/tom/src/ionic-whs-test/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/home/tom/src/ionic-whs-test/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */],
@@ -194,7 +194,7 @@ let app_component_MyApp = class MyApp {
     }
 };
 app_component_MyApp = app_component___decorate([
-    app_component___WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({template:/*ion-inline-start:"/home/tom/src/ionic-whs-test/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/tom/src/ionic-whs-test/src/app/app.html"*/
+    Object(app_component___WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/tom/src/ionic-whs-test/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/tom/src/ionic-whs-test/src/app/app.html"*/
     }),
     app_component___metadata("design:paramtypes", [app_component___WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], app_component_MyApp);
@@ -224,7 +224,7 @@ var app_module___decorate = (this && this.__decorate) || function (decorators, t
 let AppModule = class AppModule {
 };
 AppModule = app_module___decorate([
-    __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */]({
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
         declarations: [
             app_component_MyApp,
             HomePage
@@ -253,7 +253,7 @@ AppModule = app_module___decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(33);
 
 
-__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */]().bootstrapModule(AppModule);
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(AppModule);
 //# sourceMappingURL=main.js.map
 
 /***/ })
